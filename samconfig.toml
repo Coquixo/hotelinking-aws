@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "hotelinking"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-jvp54v9hotxk"
+s3_prefix = "hotelinking"
+region = "eu-west-3"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
